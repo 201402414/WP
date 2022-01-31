@@ -1,0 +1,31 @@
+header, footer{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+section{
+display: flex;
+}
+nav, article, aside{
+    border: 1px solid gray;
+    flex:1;
+  padding: 1em;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+nav ul a{
+  text-decoration: none;
+}
+article{
+  flex:3;
+
+}
+form{
+  width:100%;
+}
+input{
+  width:100%;
+}

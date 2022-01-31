@@ -1,0 +1,11 @@
+#div1, #div2 {
+    width: 600px;
+    height: 400px;
+    border: 1px solid black;
+    overflow: auto;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}

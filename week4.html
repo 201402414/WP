@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+  <meta name ="title" content = "4주차 과제이다."/>
+  <meta name ="keywords" content = "html,css,form"/>
+  <meta name ="author" content = "장수훈"/>
+  <meta name ="description" content = "html과 css를 사용한 form작성"/>
+  <title>Header</title>
+  <link rel="stylesheet" type="text/css" href="css4.css">
+</head>
+
+<body>
+  <div>
+  <header>
+    <h1>Header</h1>
+  </header>
+  <nav>
+    <h2>Navigation</h2>
+    <h3>.</h3>
+  </nav>
+  <article>
+    <h2>Article</h2>
+    <form action="form.php">
+      <table>
+      <tbody>
+        <tr>
+          <td>이름</td>
+          <td><input type="text" placeholder="이름을 입력하세요" autofocus required></td>
+        </tr>
+        <tr>
+          <td>핸드폰 번호</td>
+          <td><input type="tel" placeholder="핸드폰 번호를 입력하세요"
+            required pattern="[0-9]{3}-[0-9]{3}+-[0-9]{4}"></td>
+        </tr>
+        <tr>
+          <td>이메일</td>
+          <td><input type="email" autocomplete="off" required placeholder="이메일을 입력하시오"></td>
+        </tr>
+        <tr>
+          <td>생년월일</td>
+          <td><input type="date" required></td>
+        </tr>
+        <tr>
+          <td>대학 졸업 년도</td>
+          <td><input type="number" min="2000" max="2019" required></td>
+        </tr>
+        <tr>
+          <td>전공</td>
+          <td><input list="a123" required/>
+            <datalist id="a123">
+              <option value="컴퓨터공학"></option>
+              <option value="기계공학"></option>
+              <option value="전자공학"></option>
+            </datalist>
+          </td>
+        </tr>
+        <tr>
+          <td>증명 서류 첨부</td>
+          <td><input type="file" id="file" name="file" multiple></td>
+        </tr>
+        <tr>
+          <td>간략한 자기 소개</td>
+          <td><textarea name="message" rows="10" cols="30">간략하게 500자 이내로 작성하시오.</textarea></td>
+        </tr>
+        <tr>
+          <td><input class="submit" type="button" value="임시 서류 제출"></td>
+          <td><input type="submit"></td>
+        </tr>
+      </tbody>
+    </table>
+    </form>
+  </article>
+  <aside>
+    <h2>Aside</h2>
+  </aside>
+  <footer>
+    201402414
+  </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+* {
+  box-sizing:border-box;
+}
+
+#aa {
+  width:50%;
+  height:auto;
+}
+img {
+  float:right;
+  height:auto;
+  width:50%;
+}
+
+#a1, #c1{
+position:relative;
+right:10px;
+text-align: right;
+}
+
+
+#b1 {
+  position:relative;
+  left:10px;
+}
+
+p{
+  /* font-size:20px; */
+  font-size:1.5vw;
+}
+
+p::first-letter {
+  color:blue;
+  font-size:2.5vw;
+}
+
+
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size:2.5vw;
+}
+
+span {
+  color:red;
+}
+
+@media screen and (max-width:800px) {
+  #aa, img {
+    width:100%;
+  }
+}

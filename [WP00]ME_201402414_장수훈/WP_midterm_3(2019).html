@@ -1,0 +1,46 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> 2019 웹 프로그래밍 중간고사</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="WP_midterm_3(2019).css">
+</head>
+	<body>
+		주소 : <input type="text" id="b1"> <br><br>
+		<table border="1" id="all1">
+			<tr>
+					<td>선택</td>
+					<td>메뉴</td>
+					<td align="center">가격 </td>
+					<td align="center">수량</td>
+					<td align="center">합계</td>
+		 	</tr>
+			<tr id="a1">
+				<td><input type="checkbox"></td>
+				<td>라면</td>
+				<td align="center">3000 </td>
+				<td align="center"><input type="number"></td>
+				<td align="center" class="aSum"></td>
+		  </tr>
+			<tr id="a2">
+				<td><input type="checkbox"></td>
+				<td>떡볶이</td>
+				<td align="center">4000 </td>
+				<td align="center"><input type="number"></td>
+				<td align="center" class="aSum"></td>
+			</tr>
+			<tr id="a3">
+				<td><input type="checkbox"></td>
+				<td>계란</td>
+				<td align="center">500 </td>
+				<td align="center"><input type="number"></td>
+				<td align="center" class="aSum"></td>
+			</tr>
+ 	</table>
+	    <br> 배달료는 3000원입니다. (단, 총 구매 금액이 20000원 이상이면 배달료 무료) </br>
+			<br>
+				총 구매 금액은 <span id="answer1">***</span>원 입니다. <br><br>
+			<input type="submit" value="주문하기" id="c1">
+			<script src="WP_midterm_3(2019).js"></script>
+		<body>
+</html>
